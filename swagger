@@ -1,1 +1,87 @@
-{"apiVersion":"v1","swaggerVersion":"1.1","basePath":"http://172.18.0.1:8280","resourcePath":"/sample","apis":[{"path":"/sample/v1","description":"","operations":[{"httpMethod":"GET","summary":"","nickname":"","parameters":[{"name":"Query Parameters","description":"Request Query Parameters","paramType":"body","required":false,"allowMultiple":false,"dataType":"String"},{"name":"Authorization","description":"OAuth2 Authorization Header","paramType":"header","required":false,"allowMultiple":false,"dataType":"String"}]},{"httpMethod":"POST","summary":"","nickname":"","parameters":[{"name":"Payload","description":"Request Payload","paramType":"body","required":false,"allowMultiple":false,"dataType":"String"},{"name":"Authorization","description":"OAuth2 Authorization Header","paramType":"header","required":false,"allowMultiple":false,"dataType":"String"}]},{"httpMethod":"PUT","summary":"","nickname":"","parameters":[{"name":"Payload","description":"Request Payload","paramType":"body","required":false,"allowMultiple":false,"dataType":"String"},{"name":"Authorization","description":"OAuth2 Authorization Header","paramType":"header","required":false,"allowMultiple":false,"dataType":"String"}]},{"httpMethod":"DELETE","summary":"","nickname":"","parameters":[{"name":"Query Parameters","description":"Request Query Parameters","paramType":"body","required":false,"allowMultiple":false,"dataType":"String"},{"name":"Authorization","description":"OAuth2 Authorization Header","paramType":"header","required":false,"allowMultiple":false,"dataType":"String"}]}]}]}
+{
+	"apiVersion": "v1",
+	"swaggerVersion": "1.1",
+	"basePath": "http://172.18.0.1:8280",
+	"resourcePath": "/sample",
+	"apis": [{
+		"path": "/v1",
+		"description": "",
+		"operations": [{
+			"httpMethod": "GET",
+			"summary": "",
+			"nickname": "",
+			"parameters": [{
+				"name": "Query Parameters",
+				"description": "Request Query Parameters",
+				"paramType": "body",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}, {
+				"name": "Authorization",
+				"description": "OAuth2 Authorization Header",
+				"paramType": "header",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}]
+		}, {
+			"httpMethod": "POST",
+			"summary": "",
+			"nickname": "",
+			"parameters": [{
+				"name": "Payload",
+				"description": "Request Payload",
+				"paramType": "body",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}, {
+				"name": "Authorization",
+				"description": "OAuth2 Authorization Header",
+				"paramType": "header",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}]
+		}, {
+			"httpMethod": "PUT",
+			"summary": "",
+			"nickname": "",
+			"parameters": [{
+				"name": "Payload",
+				"description": "Request Payload",
+				"paramType": "body",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}, {
+				"name": "Authorization",
+				"description": "OAuth2 Authorization Header",
+				"paramType": "header",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}]
+		}, {
+			"httpMethod": "DELETE",
+			"summary": "",
+			"nickname": "",
+			"parameters": [{
+				"name": "Query Parameters",
+				"description": "Request Query Parameters",
+				"paramType": "body",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}, {
+				"name": "Authorization",
+				"description": "OAuth2 Authorization Header",
+				"paramType": "header",
+				"required": false,
+				"allowMultiple": false,
+				"dataType": "String"
+			}]
+		}]
+	}]
+}
