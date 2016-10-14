@@ -1,12 +1,5 @@
 {
-  "swaggerr": "2.0",
-  "info": {
-    "version": "1.0.0",
-    "title": "Swagger Petstore",
-    "license": {
-      "name": "MIT"
-    }
-  },
+  "swagger": "2.0",
   "host": "petstore.swagger.io",
   "basePath": "/v1",
   "schemes": [
