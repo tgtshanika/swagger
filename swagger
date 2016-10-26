@@ -57,7 +57,7 @@
           }
         }
       },
-      "post": {
+      "post": { 
         "summary": "Create a pet",
         "operationId": "createPets",
         "tags": [
